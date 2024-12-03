@@ -30,47 +30,27 @@ Clone the repository
 
 *git clone https://github.com/your-username/chefnest-food-app.git*
 
+
+--Create a .env file to store your MongoDB database credentials
+
+Example only (copy the full connection string from MongoDB):
+
+--MONGODB_URI = mongodb+srv://<username>:<password>@cluster0.6m5cz.mongodb.net/
+
 Navigate to the file location
 
+In my case --**cd Recipe-app-with-MERN**
 
---**cd Recipe-app-with-MERN**
-
-
-Client Setup
-
-
-Navigate to the client directory:
-
-
---**cd client**
-Install the dependencies:
 
 --**npm install**
 
-Start the client:
+Start the app:
 
 
 --**npm start**
 
 
-Server Setup
-Navigate to the server directory:
-
-
---**cd ../server**
-
-
-Install the dependencies:
-
-**npm install**
-
 **Ensure MongoDB is running on your system. You can start MongoDB by running the following command if installed locally**
-
-
-Start the server:
-
-
-**npm start**
 
 
 The client will usually run on http://localhost:3000 and the server on http://localhost:5000.
